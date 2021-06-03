@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+/*join*/
+#joinfrm {width: 300px; margin: 100px auto;}
+
+#joinfrm div {margin-bottom: 10px}
+
+#joinfrm label { display: inline-block; width: 120px; text-align: right;
+                font-weight: bold;}
+
+input, button {padding: 3px;}
+
+input {width: 120px}
+
+
+/*login*/
+
+#loginfrm {width: 300px; margin: 100px auto;}
+
+#loginfrm div {margin-bottom: 10px;}
+
+#loginfrm label {display: inline-block; width: 120px; text-align: right;
+                 font-weight: bold;}
+
+
+/*myinfo*/
+
+#myinfo { width: 300px; margin: 100px auto; }
+
+.label { display: inline-block; width: 120px; text-align: right;
+         font-weight: bold; margin-bottom: 10px; }
+
+
+/*list*/
+
+table {width: 710px; margin: 0 auto; border-collapse: collapse;
+        table-layout: fixed;}
+th, td {border: 1px solid black; text-align: center; padding: 10px;}
+
+thead {font-weight: bold;}
+
+td:nth-child(2) {white-space: nowrap; overflow: hidden;
+                 text-overflow: ellipsis }
+
+.newbtn {text-align: right; border: none;}
+
+.tbnav {border: none;}
+
+.cpage {font-weight: bold; color: orange; font-size: 25px;}
+
+
+/* write */
+#boardfrm {width: 600px; margin: 0 auto; padding-top: 50px; }
+#boardfrm div {margin-bottom:10px; }
+#boardfrm div label {font-weight: bold; display: inline-block; width:120px; 
+					text-align: right;}
+#contents {display: inline-block; width: 450px; height:150px;}
+/* div:nth-child(3) > label {vertical-align: top;} */
+.dragup {vertical-align: top;}
+
+
+/* view */
+#view {width: 600px; margin: 0 auto; padding-top: 50px; }
+#view div {margin-bottom:20px;}
+#view div label {font-weight: bold; display: inline-block; width:120px; 
+					text-align: right;}
+#view div span {border:1px solid silver; padding:5px}
+.contents {display: inline-block; width: 400px; height:350px;}
+/* div:nth-child(3) > label {vertical-align: top;} */
+.dragup {vertical-align: top;}
